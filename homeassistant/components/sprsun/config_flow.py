@@ -54,11 +54,12 @@ async def validate_input(hass: HomeAssistant, data: dict[str, Any]) -> dict[str,
     # await hass.async_add_executor_job(
     #     your_validate_func, data[CONF_USERNAME], data[CONF_PASSWORD]
     # )
+    # data[CONF_PORT] = 502
 
-    hub = PlaceholderHub(data[CONF_HOST])
+    # hub = PlaceholderHub(data[CONF_HOST])
 
-    if not await hub.authenticate(data[CONF_USERNAME], data[CONF_PASSWORD]):
-        raise InvalidAuth
+    # if not await hub.authenticate(data[CONF_USERNAME], data[CONF_PASSWORD]):
+    #    raise InvalidAuth
 
     # If you cannot connect:
     # throw CannotConnect
