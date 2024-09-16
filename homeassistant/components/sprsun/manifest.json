@@ -1,9 +1,7 @@
 {
   "domain": "sprsun",
   "name": "sprsun modbus",
-  "codeowners": [
-    "@tygozwolle"
-  ],
+  "codeowners": ["@tygozwolle"],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://www.home-assistant.io/integrations/sprsun",
