@@ -1,13 +1,15 @@
 {
   "domain": "sprsun",
   "name": "sprsun modbus",
-  "codeowners": ["@tygozwolle"],
+  "codeowners": [
+    "@tygozwolle"
+  ],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://www.home-assistant.io/integrations/sprsun",
   "homekit": {},
   "iot_class": "local_polling",
-  "requirements": [],
+  "requirements": ["pymodbus==3.6.2"],
   "ssdp": [],
   "zeroconf": []
 }
